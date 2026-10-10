@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "mcd-mcp": {
+      "type": "streamablehttp",
+      "url": "https://mcp.mcd.cn",
+      "headers": {
+        "Authorization": "Bearer ${MCD_MCP_TOKEN}"
+      }
+    }
+  },
+  "_comment": {
+    "占位符": "把 ${MCD_MCP_TOKEN} 换成你自己的麦当劳 MCP Token；申请入口 https://open.mcd.cn/mcp",
+    "环境变量": "建议把 Token 放在本地环境变量 MCD_MCP_TOKEN 或项目 .env 中，切勿提交到仓库",
+    "gitignore": "发布前确认仓库的 .gitignore 已排除 .env 与 .env.local",
+    "限流": "每个 Token 每分钟最多 600 次请求，超出返回 429；本作品一次完整口令约 3-5 次调用",
+    "不支持的写法": "本服务只走 Streamable HTTP，stdio 型配置无法直接使用"
+  }
+}
