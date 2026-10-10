@@ -182,4 +182,4 @@
 - 各客户端接入教程：见上述指南 2.5／2.6 节
 - 活动规则：https://github.com/M-China/mcd-developer-innovation-challenge/blob/main/activityGuidelines.md
 
-© 2026 参赛作者所有。代码与提示词按 MIT 方式开放使用；本项目不构成对麦当劳商标的任何授权。
+© 2026 yesprite-jpg（参赛作者）。代码与提示词按仓库根目录 `LICENSE`（MIT）开放使用。本项目不构成对麦当劳商标的任何授权，也不授予对麦当劳 MCP 服务本身的使用权 —— 任何人调用该服务都须自行遵守麦当劳《MCP 服务规则》与《使用条款》。
