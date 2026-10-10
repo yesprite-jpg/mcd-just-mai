@@ -175,6 +175,8 @@
 | `MCP_INTEGRATION.md` | 实际用了哪些 Server／Tool、调用流程、业务价值，附实测记录与已知边界 |
 | `mcp-config.example.json` | 脱敏配置示例，只含环境变量占位符 |
 | `CONTEST_DECLARATION.md` | 参赛声明，官方原件，文件名与内容均未改动 |
+| `LICENSE` | MIT 协议全文（版权人＝参赛作者）；README 里写"按 MIT 开放"由这份文件落地 |
+| `workbuddy.md` | 在腾讯 WorkBuddy 里开发与实测的**对话上下文导出件**（活动规则交付物之一，文件名不可改），含会话时间线、MCP 调用统计与关键逐字片段；凭据／门店码／订单号／地址／手机号已按该文件首节表格脱敏 |
 
 ## 出处
 
